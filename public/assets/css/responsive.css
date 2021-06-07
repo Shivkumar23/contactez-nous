@@ -1,0 +1,245 @@
+/* ================================
+Media Query Start 
+================================  */
+@media only screen and (max-width:1199px)  {
+ .blog-page-section .news-section-four .styled-pagination.border-t {top:-42px}
+}
+@media only screen and (max-width:991px)  {
+ .blog-page-section .news-section-four .styled-pagination.border-t {top:-53px}
+}
+@media only screen and (max-width:680px)  {
+ .blog-page-section .news-section-four .styled-pagination.border-t {top:-42px}
+}
+@media (max-width:1024px) {
+.paginaiton-sec .lower-content{width: initial;}
+.projets-page-section .serach-box{margin-bottom: 20px;}
+.competences-page-section .competences-page-card .lower-content .heading-tab{height: 152px;}
+.btn{letter-spacing: 1px;font-size: 12px;}
+}
+@media (max-width: 992px) {
+.pd_tp_20 {padding-top: 0;}
+.mmo-section .step-sec {padding: 30px;}
+.client-section .owl-nav .owl-next {right: -30px;}
+.client-section .owl-nav .owl-prev {left: -40px;}
+.banner-caption p {line-height: 30px;}
+.banner .owl-carousel .owl-nav {width: 960px;}
+.blog-section .intro-tab {width: 100%;}
+.footer_sec {margin-bottom: 20px;}
+.blog-section .intro-tab .card {width: 100%;margin-bottom: 40px;}
+.contact-page-section .form-content .form-left{padding-left: 20px;}
+.contact-page-section .form-content .right-from{width: 60%;}
+.Logiciels-section .Nosmoyens-sec{margin: 50px;}
+}
+@media (max-width:991px) {
+.Project-content-section .left-part .ttl {font-size: 25px;letter-spacing: initial;} 
+.Project-content-section .left-part .sub_ttl{font-size: 26px;}
+.Project-content-section .left-part,
+.Project-content-section .right-part{margin:20px 0px;}
+.competences-page-section .competences-page-card .lower-content .heading-tab{height: inherit;}
+.Nosmoyens-section{padding-top: 30px;}
+
+}
+@media (max-width: 768px) {
+#header-fix{background-color: #1a00ff;}
+h1 {font-size: 40px;}
+h2 {font-size: 35px;}
+p {font-size: 16px;}
+.section-padding {padding: 50px 0px;}
+.small-padding {padding: 50px 0px;}
+
+/* Header Section */
+.navbar .navbar-brand {margin: 0;}
+#header-fix.active .navbar-brand .img-wrap{margin-top: 0 !important;}
+.navbar-brand .img-wrap {width: 90px !important;height: 90px !important;}
+.navbar-nav .nav-item {margin: 6px 0;}
+
+/* ./Header Section */
+/* Banner Section */
+.banner .owl-carousel .owl-nav {width: 720px;}
+.banner .banner-style {padding-top: 150px;padding-bottom: 80px;padding-left: 0;padding-right: 0;}
+.banner .banner-style h1 {font-size: 35px;}
+.banner-caption p,.banner-caption .info-tab ul li {font-size: 25px;}
+
+/* ./Banner Section */
+
+/* Projets Section */
+.projets-section .sub-heading {font-size: 25px;}
+.projets-section p {font-size: 18px;}
+.projets-section .step-sec .heading-tab p{font-size: 18px !important;}
+
+/* ./Projets Section */
+/* MMO Section */
+.mmo-section .step-sec .heading-tab .heading {font-size: 40px;}
+.mmo-section .step-sec .heading-tab .sub-heading {margin-bottom: 20px;}
+.mmo-section .step-sec {padding: 40px;}
+/* MMO ./Section */
+
+/* Service Section */
+.service-tab {margin-bottom: 60px;}
+.sm-padding {padding: 20px 0;}
+.service-tab .inner .icon-img {width: 50px;}
+.service-tab .inner .icon-wrap {left: 37%;}
+/* ./Service Section */
+
+/* Blog Footer */
+.blog_footer {padding: 30px;}
+.blog_footer .blog-sec {justify-content: center;}
+.blog-section .heading {font-size: 30px;}
+
+/* ./Blog Footer */
+
+/* Blog Section */
+.blog-section .intro-tab {margin-bottom: 30px;}
+.blog-section .intro-tab .card {width: 100%;}
+/* ./Blog Section */
+/* Client Section */
+.client-section .owl-nav .owl-prev,.client-section .owl-nav .owl-next {top: -50px;}
+.client-section .owl-nav .owl-next {right: -40px;}
+.client-section .owl-nav .owl-prev {left: -40px;}
+/* ./Client Section */
+/* Footer Section */
+.footer_sec {margin-bottom: 30px;}
+/* ./Footer Section */
+
+.navbar .nav-item .nav-link.active:after{width: 10%;}
+.top_social{padding: 10px 0 30px 0;}
+.historique-section .historique-sec-img .img-wrap{width: 250px !important;}
+.historique-section .historique-sec-img::after {left: 40px !important;}
+.historique-section .historique-sec-img::before {right: 40px !important;}
+.projets-page-section .styled-pagination.border-t{top: -80px;}
+}
+@media (max-width: 767px) {
+.historique-section .historique-sec-img::after,
+.historique-section .historique-sec-img::before {display: none;}
+.links-section ul li{display: flex; flex: 0 0 50%; max-width: 50%;    margin-bottom: 30px;}
+.service-tab .inner .icon-wrap {left: 47%;}
+.copyright-section .img-wrap {margin: inherit;}
+.footer_social_link {justify-content: flex-start;padding: 0;}
+.team-section .card{text-align: center  ;}
+.Project-content-section {margin-top: 150px;}
+.blog-page-section .news-section-four::before{height: 98%;}
+.contact-page-section .form-content{display: flex;  flex-wrap: wrap;}
+.contact-page-section .form-content .form-left{flex: 0 0 100%;max-width: 100%;}
+.contact-page-section .form-content .right-from{flex: 0 0 90%; max-width: 90%;}
+.projets-page-section .news-section-four::before{height: 98%;}
+.projets-page-section .styled-pagination.border-t{top: inherit;}
+.Nosmoyens-section .Nosmoyens-sec {margin-top: 80px;position: relative;}
+.contact-page-section .form-content .form-left .title{margin-bottom: 40px;}
+.contact-page-section .form-content .form-left .head .number{font-size: 30px;}
+}
+@media (max-width: 576px) {
+.btn.btn-md {padding: 9px 13px;min-width: 175px;font-size: 14px;letter-spacing: inherit;}
+.btn.btn-sm {padding: 8px 10px;min-width: 160px;font-size: 13px;}
+.competences-page-footer .ttl{font-size: 23px;}
+h1 {font-size: 30px;}
+.step-sec .heading, h3{font-size: 20px;}
+.mmo-section .about_img .data h5{letter-spacing: 1px; font-size:20px !important}
+.service-section .heading{font-size: 28px;}
+.bgprimaryNew .heading {font-size: 30px;}
+.inner-heading .inner-tab h2{font-size: 23px;}
+.blog-section .step-sec p {font-size: 16px;}
+/* step-section */
+.step-sec .heading-tab {margin-bottom: 40px;}
+.step-sec .heading-tab p{font-size:18px;}
+.service-tab .txt{margin-top: 30px;}
+.service-tab .txt .ttl{font-size: 23px;}
+.banner .banner-style h1 {font-size: 26px;}
+.banner-caption .sub-heading,
+.banner-caption .info-tab ul li {font-size: 20px;}
+.banner-caption p {font-size: 18px;}
+.banner .owl-carousel .owl-nav {width: 540px;}
+.navbar {display: flex;}
+.navbar-brand .img-wrap {width: 80px !important;height: 70px !important;}
+.navbar-light .navbar-toggler {position: relative;}
+.projets-section .heading {font-size: 30px;}
+.projets-section .sub-heading {font-size: 22px;}
+.mmo-section .step-sec .heading-tab .sub-heading {font-size: 20px;}
+.mmo-section .about_img .data{width: 100%;}
+.mmo-section .about_img .data h5 {font-size: 22px;}
+.blog-section .intro-tab{margin-bottom: inherit;}
+.Project-content-section .left-part .sub_ttl {font-size: 23px;}
+.Project-content-section .left-part .ttl {font-size: 20px;}
+.Project-content-section .right-part p {font-size: 16px;line-height: 24px;}
+.footer .heading-tab .heading { font-size: 25px;}
+address span {font-size: 24px;}
+.blog-page-sec .lower-content .heading-tab .ttl {line-height: 30px;font-size: 19px !important;letter-spacing: 0.8px;}    
+.mmo-section .step-sec .heading-tab .heading {font-size: 35px;}
+.mmo-section .about_img img{height: inherit;}
+.blog-page-section .blog-content-section .step-sec .heading-tab{flex-wrap: wrap;}
+.blog-page-section .blog-content-section .left-part.step-sec input{width: 75%;}
+.blog-page-section .blog-content-section .left-part.step-sec h5{margin-bottom: 20px;}
+.blog-page-section .blog-content-section .left-part.step-sec .btns-block {margin-top: 3px;}
+.contact-page-section .form-content .form-left .title{margin-bottom: 0;}
+.historique-section .historique-sec-img .img-wrap{width: 300px !important;}
+.historique-section p span{font-size: 22px !important;}
+.m-70{margin-bottom: 30px !important;}
+.Nosmoyens-page-section .competences-page-footer .ttl{letter-spacing: 0 !important;font-size: 25px;}
+
+.projets-page-section .news-section-four::before{height: 97%;}
+.projets-page-section .styled-pagination.border-t {top: -28px;}
+.blog-page-section .blog-page-sec .image img{height: inherit;}
+.Nosmoyens-sec .Nosmoyens-tab h3 span{font-size: 25px;}
+.Logiciels-section .Nosmoyens-sec{margin: inherit;}
+.Nosmoyens-page-section .Logiciels-section {padding: 30px 0;}
+}
+@media (max-width: 360px) {
+.historique-section .historique-sec-img .img-wrap{width: 200px !important;}
+.mmo-section .step-sec{padding: 0;}
+.mmo-section{padding: 30px 0;}
+.service-tab .inner .icon-wrap{left:40%}
+.footer .heading-tab .heading{text-align: left;}
+.links-section ul li{display: flex; flex: 0 0 100%; max-width: 100%;    }
+.btn {font-size: 11px;}
+.blog-page-section .news-section-four .styled-pagination.border-t {top: -38px;}
+.projets-page-section .styled-pagination.border-t {top: -33px;}
+}
+
+/* =================================
+Media Query End 
+================================= */
+
+/****** Preloader Start ********/
+
+.Preloader{
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background-color: #111111;
+z-index: 1099;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.6s ease;
+}
+.Preloader.loaded{
+visibility: hidden;
+opacity: 0;
+z-index: -99;
+}
+
+.Preloader .loader{
+height: 50px;
+width: 50px;
+border: 2px solid #fff;
+border-right: 2px solid transparent;
+border-radius: 50%;
+animation:  ani01 2s linear infinite;}
+
+@keyframes ani01{
+0%{
+transform: rotate(0deg);
+}
+100%{
+transform: rotate(360deg);
+}
+}
+
+/****** Preloader Ends ********/
+
+
+#banner-slider .owl-nav .owl-next span{
+border-left: 1px solid red;
+}
+
